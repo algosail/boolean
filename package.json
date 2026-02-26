@@ -1,0 +1,30 @@
+{
+  "name": "@algosail/boolean",
+  "version": "0.1.0",
+  "description": "Small collection of FP utilities for working with boolean values.",
+  "author": "algosail",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/algosail/boolean.git"
+  },
+  "bugs": {
+    "url": "https://github.com/algosail/boolean/issues"
+  },
+  "homepage": "https://github.com/algosail/boolean#readme",
+  "prettier": {
+    "singleQuote": true,
+    "semi": false
+  }
+}
